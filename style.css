@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    padding: 0px;   
+}
+
+/***********************************************/
+/*               section 1                     */
+.btn-primary {
+   background-color: #ff7f00;
+   border: none;
+}
+
+
+/*.section1{
+	background-image: url("images/main.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 600px;
+    width: 100%;
+	text-align: center;
+}
+
+ .grostitre{
+	padding-top: 100px;
+	font-size: 3em;
+	font-family: Montserrat, sans-serif;
+	color: #444242;
+} 
+
+ .section1 button{
+	background-color: #ff7f00;
+	color: white;
+	font-size: 20px;
+	border-style: none;
+	border-radius: 5px;
+	padding: 10px 25px;
+}*/
+
+/*************************************************/
+/*                  section 2                    */
+.section2 {
+    padding: 60px 190px;
+    font-size: 0.9em;
+}
+
+h6 {
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+#gauche, #centre, #droite {
+    padding: 30px;
+    text-align: center;
+}
+
+/***************************************************/
+/*           modif responsive                      */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 540px) { ... }
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 720x) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 960px) { ... }
+
