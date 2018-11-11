@@ -1,0 +1,56 @@
+/*Section vignettes d'articles*/
+#vignettes {
+    background: #f2f2f2;
+		padding: 5vh;
+}
+#famille {
+	
+}
+
+/*
+#evasion {
+    background-image: url("images/article-image-2.jpg");
+    background-repeat: no-repeat;
+}
+*/
+#vignettes button {
+	background-color: orange;
+}
+
+#vignettes button:hover {
+	background-color: #ff7f00;
+}
+
+#vignettes p {
+	font-size: 0.9rem;
+}
+
+#vignettes img {
+}
+
+.texte-gauche {
+	background-color: rgba(255,255,255,0.95);
+}
+/****************************/
+/*Formulaire de contact JMI*/
+#formulaire h2{
+	border-bottom: 1px solid deepskyblue;
+	color: #262626;
+}
+
+#formulaire p, #formulaire h2 {
+	padding: 3vh 0;
+}
+
+#formulaire label {
+	margin: 0 1vw;
+}
+
+#formulaire button {
+	margin: 0 1.5vw;
+}
+
+.formulaire-input {
+	font-size: 1.5rem;
+}
+/****************************/
