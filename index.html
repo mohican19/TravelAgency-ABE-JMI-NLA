@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>Travel Agency</title>
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
@@ -51,39 +51,48 @@
 		</section>
 <!--Noemie-->
 <!-- Alban -->
-		<section id="vignettes" class="d-flex justify-content-center align-content-center flex-wrap">
-		  <article id="famille" class="d-flex flex-column">
-		    <div class="texte-gauche">
-		      <h3>PARTEZ EN FAMILLE</h3>
-		      <p><em>Offrez le meilleur à ceux que vous aimez et partagez des moments fabuleux !</em></p>
-		      <button class="btn text-light">Plus d'info</button>
-		    </div>
-				<img src="images/article-image-1.jpg" alt="">
-		  </article>
+		<section id="vignettes" class="container-fluid d-flex justify-content-center ">
+			<div class="row flex-md-nowrap">
 
-		  <article id="evasion" class="d-flex flex-column">
-		    <div class="texte-gauche">
-		      <h3>ENVIE DE S'EVADER</h3>
-		      <p><em>Parfois un peu d'évasion serait le bienvenue et ferait le plus grand bien !</em></p>
-		      <button class="btn text-light">Plus d'info</button>
-		    </div>
-				<img src="images/article-image-2.jpg" alt="">
-		  </article>
+				<article id="famille" class="col-lg-6 col-md-6 col-sm-12 d-flex align-content-stretch">
+					<div class="row flex-lg-row flex-md-row-reverse">
+						<div class="col-lg-5 col-md-7 col-sm-12 col-12 texte-gauche">
+							<h3>PARTEZ EN FAMILLE</h3>
+							<div class="barre"></div>
+							<p><em>Offrez le meilleur à ceux que vous aimez et partagez des moments fabuleux !</em></p>
+							<button class="btn text-light">Plus d'info</button>
+						</div>
+					</div>
+				</article>
 
+				<article id="evasion" class="col-lg-6 col-md-6 col-sm-12 d-flex align-content-stretch ">
+					<div class="row ">
+						<div class="col-lg-5 col-md-7 col-sm-12 col-12 texte-gauche">
+							<h3>ENVIE DE S'EVADER</h3>
+							<div class="barre"></div>
+							<p>Parfois un peu d'évasion serait le bienvenue et ferait le plus grand bien !</p>
+							<button class="btn text-light">Plus d'info</button>
+						</div>
+					</div>
+				</article>
+
+			</div>
 		</section>
-		    <section id="formulaire" class="d-flex flex-column justify-content-center">
+		    <section id="formulaire" class=" container d-flex flex-column justify-content-center">
 					<h2 class="align-self-center">CONTACTEZ-NOUS</h2>
 					<p class="align-self-center">Chez Travel Agency nous savons que voyager est une aventure humaine mais également un engagement financier important pour vous. C'est<br> pourquoi nous mettons un point d'honneur à prendre en compte chacune de vos attentes pour vous aider dans la préparation de votre séjour,<br> circuit ou voyage sur mesure.</p>
-		      <form class="d-flex flex-row justify-content-center">
-		      	<div id="" class="formulaire-input">
-		        	<label class="text-dark"><strong>Nom</strong></label>
-		        	<input class="text-muted" type="text" value="Votre nom" class="">
-		      	</div>
-		        <div id="" class="formulaire-input">
-		            <label class="text-dark"><strong>Email</strong></label>
-		            <input class="text-muted" type="text" value="Votre email">
-		        </div>
-		        <button type="button" class="btn btn-primary">OK</button>
+		      <form class="container-fluid d-flex flex-row justify-content-center">
+						<div class="row">
+							<div id="" class="col-lg-5 col-md-12 col-sm-12 col-12 row formulaire-input">
+								<label class="col-lg-3 col-sm-12 text-dark"><strong>Nom</strong></label>
+								<input class="col-lg-9 col-sm-12 text-muted" type="text" value="Votre nom" class="">
+							</div>
+							<div id="" class="col-lg-5 col-md-12 col-sm-12 col-12 row formulaire-input">
+								<label class="col-lg-3 col-sm-12 text-dark"><strong>Email</strong></label>
+								<input class="col-lg-9 col-sm-12 text-muted" type="text" value="Votre email">
+							</div>
+							<button type="button" class="col-lg-2 col-md-2 col-sm-2 btn btn-primary">OK</button>
+						</div>
 		      </form>
 		    </section>
 <!-- fin Alban -->
