@@ -1,4 +1,4 @@
-tml>
+<html>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,22 +9,35 @@ tml>
 	</head>
 
 	<body>
-		<!--Alban-->	
-		<section class="container-fluid section1">
-            <div class="">
-                <div class="">
-                    <img src="images/main.jpg" class="img-fluid" alt="Responsive image">
-                    <div class="col-2">
-                        <p class="">ORGANISEZ VOTRE <strong>VOYAGE SUR MESURE</strong></p>
-                        <button type="button" class="btn btn-primary">Par ici</button>
+		<!--Alban-->
+        <!-- je créé l container pou la section 1 avec un back-ground (bg)  -->
+		<section class="container-fluid section1 d-flex bg">
+            <!-- je centre ma boite texte, axe horizontal --->
+            <div class="col-lg-3 col-md-3"></div>
+            <!-- j'attribue à ma cellule la hauteur du fond d'ecran .... : -->
+            <div class="col-lg-6 col-md-6 d-flex ">
+                <!-- je centre en vertical : -->
+                <div class="row align-items-center container-fluid">
+                    <!-- je centre dans la boite, axe horizontale -->
+                    <div class="d-flex container-fluid">
+                            <div class="text-center d-flex flex-column align-items-center container-fluid">
+                                    <h1 class="text-muted">ORGANISEZ VOTRE</h1>
+                                    <h1 class="text-muted"><strong>VOYAGE SUR MESURE</strong></h1>
+                                
+                                <div class=""> 
+                                    <button type="button" class="btn btn-primary ">Par ici</button>
+                                </div>
+                            </div>
+                    </div>
+                        
                     </div>
                 </div>
-             </div>   
+               <div class="col-lg-3"></div>    
 		</section>
 
-		<section class="container-fluid section2 text-muted">
+		<section class="container-fluid section2 text-muted ">
 				<div class="row ">
-				<div class="col-lg col-md flex-column " id="gauche">
+				<div class="col-lg col-md flex-column element ">
 				    <div class="text-center">
 					<img src="images/steps-icon-1.png"/>
 					</div>
@@ -32,7 +45,7 @@ tml>
 					<p class="d-none d-lg-block ">Confiez-nous vos rêves d'évasion : en famille ou entre amis, nous trouverons la formule qui comblera vos attentes.</p>
 				</div>
 				
-				<div class="col-lg col-md" id="centre">
+				<div class="col-lg col-md element">
 				    <div class="text-center">
 					<img src="images/steps-icon-2.png"/>
 					</div>
@@ -40,7 +53,7 @@ tml>
 					<p class="d-none d-lg-block text-muted">Bénéficiez de l'expertise de nos spécialistes de chaque destination, ils vous accompagnent dans la réalisation de votre voyage.</p>
 				</div>
 				
-				<div class="col-lg col-md" id="droite">
+				<div class="col-lg col-md element">
 				    <div class="text-center">
 					<img src="images/steps-icon-3.png"/>
 					</div>
