@@ -1,10 +1,13 @@
 body {
     margin: 0px;
-    padding: 0px;   
+    padding: 0px;
 }
 
 /***********************************************/
-/*               section 1                     */
+/*         header -NLA                         */
+
+/***********************************************/
+/*               section 1 ABE              */
 .btn-primary {
    background-color: #ff7f00;
    border: none;
@@ -15,15 +18,16 @@ body {
 .bg {
     background-image: url(images/main.jpg);
     background-position: center center;
+    background-repeat: no-repeat;
     height: 90%;
 }
 
-.texte, .grdeBoite {    
+.texte, .grdeBoite {
     border: 4px solid black;
 }
 
 /*************************************************/
-/*                  section 2                    */
+/*                  section 2 -ABE            */
 .section2 {
     padding: 2em 12em;
     font-size: 0.9em;
@@ -39,15 +43,54 @@ h6 {
     text-align: center;
 }
 
-/***************************************************/
-/*           modif responsive                      */
+#icones {
+  margin: 0;
+}
 
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 540px) { ... }
+/****************************/
 
-/* Medium devices (tablets, 768px and up)  */
-@media (min-width: 720x) { ... }
+@media (max-width: 768px){
+     .btn-primary {
+   background-color: #ff7f00;
+   border: none;
+   margin: 0.3em;
+   font-size: 1.4em;
+   }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 960px) { ... }
+   .section2 img {
+     display: none;
+   }
 
+   .section2 .bg-2 {
+     background-image: url(images/steps-icon-1.png);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: contain;
+   }
+
+   .section2 .bg-3 {
+     background-image: url(images/steps-icon-2.png);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: contain;
+   }
+
+   .section2 .bg-4 {
+     background-image: url(images/steps-icon-3.png);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: contain;
+   }
+}
+
+/******************************/
+@media (max-width: 576px){
+
+   .btn-primary {
+   background-color: #ff7f00;
+   border: none;
+   margin-top: 0.1em;
+    font-size: 1.2em;
+   }
+
+}
