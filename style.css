@@ -94,3 +94,162 @@ h6 {
    }
 
 }
+
+/****************************/
+/*Section vignettes d'articles*/
+#vignettes {
+    background: #f2f2f2;
+	/*	padding: 5vh;*/
+    text-align: center;
+}
+#famille {
+  border-radius: 10px;
+  background-image: url("images/article-image-1.jpg");
+  background-size: cover;
+  margin-right: 15px;
+}
+
+#evasion {
+  background-image: url("images/article-image-2.jpg");
+  border-radius: 10px;
+  background-size: cover;
+}
+
+#vignettes button {
+	background-color: orange;
+  padding: 6px 15px;
+  margin-bottom: 10px
+}
+
+#vignettes button:hover {
+	background-color: #ff7f00;
+}
+
+#vignettes p {
+	font-size: 0.9rem;
+}
+
+.texte-gauche {
+	background-color: rgba(255,255,255,0.85);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.texte-gauche h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 20px;
+  color: #696969;
+}
+
+.texte-gauche p {
+  font-style: italic;
+  padding: 10px;
+  font-size: 14px;
+  color: #A9A9A9;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+
+.barre {
+  height: 0px;
+  width: 80%;
+  background-color: #DCDCDC;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  padding: 0px;
+  border: 0.25px #DCDCDC solid;
+}
+
+article {
+  margin-top: 30px;
+  margin-bottom: 20px
+}
+
+/****************************/
+/*Formulaire de contact JMI*/
+#formulaire h2{
+	border-bottom: 1px solid deepskyblue;
+	color: #262626;
+}
+
+#formulaire p, #formulaire h2 {
+	padding: 3vh 0;
+}
+
+#formulaire label {
+	margin: 0 1vw;
+}
+
+#formulaire button {
+	margin: 0 1.5vw;
+}
+
+.formulaire-input {
+	font-size: 1.5rem;
+}
+/****************************/
+@media (max-width: 576px) {
+/****************************/
+/*Section vignettes d'articles*/
+.texte-gauche {
+  padding: 10px 0 ;
+	background-color: rgba(255,255,255,0.6);
+  border-radius: 0;
+}
+
+.texte-gauche p {
+  color: #4d4d4d ;
+  text-shadow: white 0 1px 1px;
+}
+#famille, #evasion {
+  border-radius: 0;
+  margin-right: 0;
+}
+
+article {
+  margin: 15px 0 10px 0;
+}
+/****************************/
+/*Formulaire de contact JMI*/
+#formulaire button {
+	margin: 1.5vw;
+  padding: 10px 30px;
+  width: auto;
+}
+#formulaire label {
+	margin: 1vw;
+}
+}
+/****************************/
+@media (max-width: 768px) and (min-width: 577px) {
+/****************************/
+/*Section vignettes d'articles*/
+#famille, #evasion {
+  border-radius: 0 ;
+  margin-right: 0;
+}
+
+#famille .texte-gauche {
+  border-radius: 15% 0 0 15% ;
+  border-right: 0.25px #DCDCDC solid ;
+}
+
+#evasion .texte-gauche {
+  border-radius: 0 15% 15% 0;
+}
+
+.barre {
+  margin-top: 10px;
+}
+/****************************/
+/*Formulaire de contact JMI*/
+#formulaire button {
+	margin: 1.5vw;
+}
+#formulaire label {
+	margin: 1vw;
+}
+}
+/****************************/
