@@ -5,12 +5,38 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	        <meta name="viewport" content="width=device-width, initial-scale=1">
         	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	        <link rel="stylesheet" href="style.css">
+					<link rel="stylesheet" href="style-NLA.css">
+					<link rel="stylesheet" href="style.css">
+
 
 		<title>Travel Agency</title>
 	</head>
 
 	<body>
+		<!-- Noemie -->
+		<header class="container">
+
+		<div id="head">
+
+	    	<nav class="navbar navbar-expand-md navbar-light">
+	    		<a class="navbar-brand" href="#"><h1 class="titre">Travel Agency</h1></a>
+
+	    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    		<span class="navbar-toggler-icon"></span>
+  			</button>
+
+  			<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+		      <ul class="navbar-nav">
+		        <li class="nav-item"><a class="nav-link" href="#accueil">ACCUEIL</a></li>
+		        <li class="nav-item"><a class="nav-link" href="#destination">DESTINATION</a></li>
+		        <li class="nav-item"><a class="nav-link" href="#vignettes">CIRCUITS</a></li>
+		        <li class="nav-item"><a class="nav-link" href="#formulaire">CONTACT</a></li>
+		      </ul>
+		    </div>
+	    	</nav>
+		</div>
+
+    </header>
 		<!--Alban-->
         <!-- je créé le container pou la section 1 avec un back-ground (bg)  -->
 		<section class="container-fluid section1 d-flex bg">
@@ -70,8 +96,57 @@
 		</section>
 <!--Alban-->
 <!--Jarod-->
+<!-- Jarod -->
+<section id="vignettes" class="container-fluid d-flex justify-content-center ">
+			<div class="row flex-md-nowrap">
 
+				<article id="famille" class="col-lg-6 col-md-6 col-sm-12 d-flex align-content-stretch">
+					<div class="row flex-lg-row flex-md-row-reverse">
+						<div class="col-lg-5 col-md-7 col-sm-12 col-12 texte-gauche">
+							<h3>PARTEZ EN FAMILLE</h3>
+							<div class="barre"></div>
+							<p><em>Offrez le meilleur à ceux que vous aimez et partagez des moments fabuleux !</em></p>
+							<button class="btn text-light">Plus d'info</button>
+						</div>
+					</div>
+				</article>
+
+				<article id="evasion" class="col-lg-6 col-md-6 col-sm-12 d-flex align-content-stretch ">
+					<div class="row ">
+						<div class="col-lg-5 col-md-7 col-sm-12 col-12 texte-gauche">
+							<h3>ENVIE DE S'EVADER</h3>
+							<div class="barre"></div>
+							<p>Parfois un peu d'évasion serait le bienvenue et ferait le plus grand bien !</p>
+							<button class="btn text-light">Plus d'info</button>
+						</div>
+					</div>
+				</article>
+
+			</div>
+		</section>
+		    <section id="formulaire" class=" container d-flex flex-column justify-content-center">
+					<h2 class="align-self-center">CONTACTEZ-NOUS</h2>
+					<p class="align-self-center">Chez Travel Agency nous savons que voyager est une aventure humaine mais également un engagement financier important pour vous. C'est<br> pourquoi nous mettons un point d'honneur à prendre en compte chacune de vos attentes pour vous aider dans la préparation de votre séjour,<br> circuit ou voyage sur mesure.</p>
+		      <form class="container-fluid d-flex flex-row justify-content-center">
+						<div class="row">
+							<div id="" class="col-lg-5 col-md-12 col-sm-12 col-12 row formulaire-input">
+								<label class="col-lg-3 col-sm-12 text-dark"><strong>Nom</strong></label>
+								<input class="col-lg-9 col-sm-12 text-muted" type="text" value="Votre nom" class="">
+							</div>
+							<div id="" class="col-lg-5 col-md-12 col-sm-12 col-12 row formulaire-input">
+								<label class="col-lg-3 col-sm-12 text-dark"><strong>Email</strong></label>
+								<input class="col-lg-9 col-sm-12 text-muted" type="text" value="Votre email">
+							</div>
+							<button type="button" class="col-lg-2 col-md-2 col-sm-2 btn btn-primary">OK</button>
+						</div>
+		      </form>
+</section>
 <!-- fin JME -->
+<!-- Noemie -->
+<footer class="">
+      <h2 class="titre_footer">Travel Agency</h2>
+      <p class="m-0" id="copyright">Copyright © Tous droits réservés.</p>
+    </footer>
 	</body>
 
 
